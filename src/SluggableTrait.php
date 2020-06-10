@@ -52,7 +52,7 @@ trait SluggableTrait {
 			(array) $from
 		);
 
-		return join($source, ' ');
+		return implode(' ', $source);
 	}
 
 	/**
